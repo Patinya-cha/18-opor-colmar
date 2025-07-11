@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Lato", sans-serif;
+}
+/* bar */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.aca{
+    color: rgb(204, 204, 204);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    li{list-style: none;
+}
+}
+.nav_desktop{
+    display: flex;
+    gap: 1rem;
+}
+/* Hero */
+.hero{
+    display: flex;
+    padding: 32px 24px;
+    background-color: rgb(196, 192, 192);
+    align-items: center;
+}
+ .hero .banner img {
+    flex: 60%;
+    padding-right: 24px;
+  }
+.hero_text{
+    flex: 40%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.hero_text h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+.hero_text h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+.hero_text button {
+background-color: rgb(84, 82, 82);
+color: white;
+padding: 8px;
+font-size: medium;
+}
+/* Information */
+.information{
+    display: flex;
+    padding: 32px 24px;
+}
+.img_left_inf img{
+    width: 100%;
+    height: auto;
+}
+.img_left_inf{
+    flex: 60%;
+}
+.main_text{
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+}
+.main_text h1{
+    padding-top: 32px;
+    font-size: 2.4rem;
+}
+.main_text p{
+    padding: 24px 0;
+    font-size: large;
+    letter-spacing: 1px;
+    width: 60%;
+}
+.r_text{
+    padding: 1rem;
+    align-items: center;
+}
+.info_box img{
+    height: auto;
+}
+.info_box{
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.img_r_inf img {
+  width: 100%;
+  height: auto;
+}
+.img_r_inf{
+    flex: 35%;
+}
+.right_inf{
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.r_text {
+  flex: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+}
+.campus, .guest{
+        padding-top: 32px;
+    }
+.readmore{
+        color: rgb(99, 198, 244);
+    }
+/* course */
+.course{
+    padding: 32px 74px;
+    background-color:  rgb(196, 192, 192) ;
+}
+.course h1{
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.course_top{
+    display: flex;
+    
+.course_low{
+    display: flex;
+}
+.box img{
+    height: auto;
+}
+.box{
+    padding: 32px;
+}
+.tx_c{
+  padding: 16px;
+  background-color: #fff;
+  width: 530px;
+  
+}
