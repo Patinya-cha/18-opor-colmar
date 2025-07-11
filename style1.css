@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
     font-family:"Lato", sans-serif;
 }
 /* bar */
@@ -138,7 +140,7 @@ font-size: medium;
 }
 .course_top{
     display: flex;
-    
+}
 .course_low{
     display: flex;
 }
@@ -151,6 +153,6 @@ font-size: medium;
 .tx_c{
   padding: 16px;
   background-color: #fff;
-  width: 530px;
-  
+  box-sizing: border-box;
+  height: 9.2rem;
 }
